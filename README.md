@@ -19,12 +19,16 @@ $ docker run -p 3000:3000 --rm -it -v $(pwd):/app secondstate/ssvm-nodejs-starte
 (docker) # node node/app.js
 ```
 
-From a second terminal window, you can test the local server.
+You'll see the below output on the terminal
 
 ```
-$ curl http://localhost:3000/?name=SSVM
-hello SSVM
+Listening at http://localhost:3000
 ```
+
+Open your browser and visit the `http://localhost:3000` url and you'll see the webpage.
+
+## Demo
+![RGB_TO_HEX](https://raw.githubusercontent.com/changezkhan/crm/master/rust_webassembly_nodejs.gif)
 
 
 ## Use VSCode Codespace
